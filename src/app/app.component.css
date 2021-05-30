@@ -35,3 +35,7 @@ a:active {
 
 .country-label {
 }
+
+.el-accordion .mat-expansion-panel-body {
+  padding: 0 0 0 0;
+}
