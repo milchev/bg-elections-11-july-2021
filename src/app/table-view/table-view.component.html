@@ -1,0 +1,22 @@
+<mat-accordion>
+
+
+  <mat-expansion-panel *ngFor="let country of countries; let index = index; trackBy: trackByFn">
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        <span class="country-position-idx text-center">{{index + 1}}</span>
+        <span class="flag-icon flag-icon-{{country.flag}}">
+        </span>
+        <span class="country-label text-truncate ps-2">{{country.name}}  ({{country.count}} {{country.countLabel}})</span>
+      </mat-panel-title>
+      <mat-panel-description> </mat-panel-description>
+    </mat-expansion-panel-header>
+    <div *ngFor="let loc of country.data; let index = index; trackBy: trackByFn;">
+      <div class="ps-3  py-2">
+        {{loc.location}}   <span class="ms-2">({{loc.count}} {{loc.countLabel}})</span>
+      </div>
+
+      <!-- {{loc | json}} -->
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>

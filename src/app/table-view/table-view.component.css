@@ -1,0 +1,19 @@
+.mat-form-field + .mat-form-field {
+  margin-left: 8px;
+}
+
+.country-position-idx {
+  width: 2rem;
+
+  flex-shrink: 0;
+}
+
+.flag-icon,
+.icon-flag {
+  width: 2.5rem;
+
+  flex-shrink: 0;
+}
+
+.country-label {
+}

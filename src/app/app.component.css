@@ -1,0 +1,37 @@
+p {
+  font-family: Lato;
+}
+
+.some-content {
+  height: 20px;
+  width: 400px;
+  background-color: greenyellow;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.country-position-idx {
+  width: 2rem;
+
+  flex-shrink: 0;
+}
+
+.flag-icon,
+.icon-flag {
+  width: 2.5rem;
+
+  flex-shrink: 0;
+}
+
+.country-label {
+}
