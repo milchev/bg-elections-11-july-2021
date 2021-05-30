@@ -16,7 +16,7 @@
       <mat-panel-description> </mat-panel-description>
     </mat-expansion-panel-header>
     <mat-list role="list">
-      <mat-list-item *ngFor="let place of top10; let index = index" role="listitem" title="{{place.name}}">
+      <mat-list-item *ngFor="let place of topLocations; let index = index" role="listitem" title="{{place.name}}">
         <span class="country-position-idx text-center">{{index + 1}}</span>
         <span
           class="me-2 flag-icon flag-icon-{{place.flag}}"

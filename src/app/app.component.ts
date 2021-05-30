@@ -9,9 +9,6 @@ import { CODES } from './country-codes.data';
 })
 export class AppComponent {
   locations = locations;
-
-  turkey = locations.TR;
-
   countryKeys = Object.keys(this.locations);
   countries = this.countryKeys
     .map(cKey => {
@@ -20,11 +17,11 @@ export class AppComponent {
           return {
             location: l.location,
             count: l.cnt,
-            countLabel:  l.cnt > 1 ? 'заявления' : 'заявление'
+            countLabel: l.cnt > 1 ? 'заявления' : 'заявление'
           };
         })
         .filter(l => +l.count > 0);
-      //let accumulated = this.locations[cKey][0].cnt || 0;
+
       let count = this.locations[cKey].reduce(this.locationReducer, 0);
       let accumulated = {
         name: CODES[cKey] || cKey,
@@ -52,7 +49,7 @@ export class AppComponent {
     }, [])
     .sort((a, b) => b.count - a.count);
 
-  top10 = this.flatten.slice(0, 100);
+  topLocations = this.flatten.slice(0, 100);
 
   private locationReducer(acc, cur) {
     return acc + (cur.cnt || 0);
