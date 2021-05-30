@@ -1,14 +1,32 @@
 <h2 class="px-3 pt-4">
-  <div>Подадени електронни
-    заявления за гласуване от чужбина - {{total}}.</div>
-  <a class="" target="_blank" href="https://www.cik.bg/bg/ns11.07.2021/izvan-stranata/submit"> Препратка към подаване на
-    елекронно
-    "Заявление
-    за гласуване в секция извън страната" - cik.bg .</a>
+  <div>Подадени електронни заявления за гласуване от чужбина - {{total}}.</div>
+  <a
+    class=""
+    target="_blank"
+    href="https://www.cik.bg/bg/ns11.07.2021/izvan-stranata/submit"
+  >
+    Препратка към подаване на електронно "Заявление за гласуване в секция извън
+    страната" - cik.bg .</a
+  >
 </h2>
 
 <div class="px-3 mb-4">
-  данните са от 30 Май 2021 - 10:48 българско време
+  данните са от 30 Май 2021 - 12:40 българско време
+</div>
+<div class="px-3 mb-4">
+  Електронни заявления може да се подават до 15.06.2021 г., 24:00 часа българско
+  време. Те служат за:
+  <ul>
+    <li>
+      образуване на избирателни секции извън страната при подадени не по-малко
+      от 40 заявления за конкретно място и определяне броя на секциите във всяко
+      място;
+    </li>
+    <li>
+      съставяне на списъците за гласуване по чл. 31, ал. 1 ИК за образуваните
+      избирателни секции.
+    </li>
+  </ul>
 </div>
 
 <mat-accordion class="el-accordion">
@@ -20,7 +38,11 @@
       <mat-panel-description> </mat-panel-description>
     </mat-expansion-panel-header>
     <mat-list role="list">
-      <mat-list-item *ngFor="let place of topLocations; let index = index" role="listitem" title="{{place.name}}">
+      <mat-list-item
+        *ngFor="let place of topLocations; let index = index"
+        role="listitem"
+        title="{{place.name}}"
+      >
         <span class="country-position-idx text-center">{{index + 1}}</span>
         <span
           class="me-2 flag-icon flag-icon-{{place.flag}}"
@@ -30,7 +52,8 @@
         <span
           title="({{place.count}}) {{place.location}} - {{place.name}}"
           class="text-truncate country-label"
-          >({{place.count}}) {{place.location}} - {{place.name}}</span>
+          >({{place.count}}) {{place.location}} - {{place.name}}</span
+        >
       </mat-list-item>
     </mat-list>
   </mat-expansion-panel>
