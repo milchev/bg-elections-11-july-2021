@@ -117,7 +117,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 22
+      cnt: 24
     },
     {
       location: 'Инсбрук',
@@ -358,7 +358,7 @@ export const locations = {
     { location: 'Rostock', note: '', cnt: 5 },
     { location: 'Straubing', note: '', cnt: 7 },
     { location: 'Wiesbaden', note: '', cnt: 8 },
-    { location: 'Wuppertal', note: '', cnt: 2 },
+    { location: 'Wuppertal', note: '', cnt: 3 },
     {
       location: 'Аахен',
       note:
@@ -790,7 +790,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 35
+      cnt: 38
     },
     {
       location: 'Фирнхайм',
@@ -1293,7 +1293,7 @@ export const locations = {
     { location: 'Canals, Canals', note: '', cnt: 8 },
     { location: 'Collado Villalba', note: '', cnt: 24 },
     { location: 'Ejea De Los Caballeros', note: '', cnt: 24 },
-    { location: 'El Raal', note: '', cnt: 12 },
+    { location: 'El Raal', note: '', cnt: 13 },
     { location: 'Girona, Catedral de Girona', note: '', cnt: 1 },
     { location: 'Huércal-Overa', note: '', cnt: 1 },
     { location: 'Mollet del Valles,Barcelona', note: '', cnt: 4 },
@@ -1476,7 +1476,7 @@ export const locations = {
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹'
     },
-    { location: 'Лорет де Мар', note: '', cnt: 36 },
+    { location: 'Лорет де Мар', note: '', cnt: 37 },
     {
       location: 'Лорет де Мар\r\n',
       note:
@@ -1672,7 +1672,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 33
+      cnt: 34
     },
     {
       location: 'Хуеркал - Овера',
@@ -1736,7 +1736,7 @@ export const locations = {
       index: '¹',
       cnt: 2
     },
-    { location: 'Матера / Matera', note: '', cnt: 27 },
+    { location: 'Матера / Matera', note: '', cnt: 28 },
     { location: 'Матера/ Matera', note: '', cnt: 1 },
     {
       location: 'Милано (Българско училище)2',
@@ -1999,7 +1999,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 42
+      cnt: 43
     },
     {
       location: 'Никозия (Посолство)',
@@ -2297,7 +2297,7 @@ export const locations = {
       index: '¹',
       cnt: 31
     },
-    { location: 'Хага 1 Hoefkade 1234-1416', note: '', cnt: 3 },
+    { location: 'Хага 1 Hoefkade 1234-1416', note: '', cnt: 4 },
     {
       location: 'Харлем',
       note:
@@ -2422,7 +2422,7 @@ export const locations = {
     { location: 'Burnley, Burnley', note: '', cnt: 10 },
     { location: 'Burton upon Trent', note: '', cnt: 5 },
     { location: 'Cardiff', note: '', cnt: 29 },
-    { location: 'Carlisle,Cumbria', note: '', cnt: 30 },
+    { location: 'Carlisle,Cumbria', note: '', cnt: 32 },
     { location: 'Chelmsford', note: '', cnt: 3 },
     { location: 'Cheshunt, London', note: '', cnt: 4 },
     { location: 'Corby', note: '', cnt: 3 },
@@ -2504,7 +2504,7 @@ export const locations = {
     { location: 'Tunbridge Wells', note: '', cnt: 6 },
     { location: 'Wandsworth/Balham/Earsfild', note: '', cnt: 41 },
     { location: 'Warrington', note: '', cnt: 13 },
-    { location: 'Watford', note: '', cnt: 59 },
+    { location: 'Watford', note: '', cnt: 60 },
     { location: 'Wesbech', note: '', cnt: 11 },
     { location: 'Weston Super Mare', note: '', cnt: 57 },
     { location: 'Weston-super-Mare', note: '', cnt: 11 },
@@ -3071,7 +3071,7 @@ export const locations = {
       index: '¹',
       cnt: 1
     },
-    { location: 'Щип', note: '', cnt: 18 },
+    { location: 'Щип', note: '', cnt: 19 },
     { location: '*', note: '' }
   ],
   ZA: [
@@ -3692,7 +3692,7 @@ export const locations = {
     { location: 'ЗЕХТИНБУРНУ/ИСТАНБУЛ, Зехтинбурну', note: '', cnt: 29 },
     { location: 'ИСТАНБУЛ, кв. ЕСЕНЮРТ, мах. КЪРАЧ', note: '', cnt: 45 },
     { location: 'Измир Буджа  Чамлъкуле3', note: '', cnt: 8 },
-    { location: 'Измир кв.Борнова (Доганлар)', note: '', cnt: 1 },
+    { location: 'Измир кв.Борнова (Доганлар)', note: '', cnt: 2 },
     { location: 'Измир общ.Буджа кв.Чамлъкуле2', note: '', cnt: 24 },
     {
       location: 'Измир, Газиемир, кв. Сарънч',
@@ -3887,7 +3887,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 777
+      cnt: 785
     },
     {
       location: 'Чорлу, кв. Шейхсинан',
@@ -3909,7 +3909,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 129
+      cnt: 133
     },
     { location: 'обл.КЪРКЛАРЕЛИ гр.БАБАЕСКИ', note: '', cnt: 63 },
     { location: 'обл.Текирдаг гр.Черкезкьой', note: '', cnt: 112 },
