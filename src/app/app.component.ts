@@ -18,7 +18,7 @@ export class AppComponent {
           return {
             location: l.location,
             count: l.cnt,
-            countLabel: l.cnt > 1 ? 'заявления' : 'заявление'
+            countLabel: l.cnt !== 1 ? 'заявления' : 'заявление'
           };
         })
         .filter(l => +l.count > 0);
@@ -29,17 +29,18 @@ export class AppComponent {
         code: cKey,
         flag: (cKey === 'UK' ? 'gb' : cKey).toLowerCase(),
         count,
-        countLabel: count > 1 ? 'заявления' : 'заявление',
+        countLabel: count !== 1 ? 'заявления' : 'заявление',
         data
       };
       return accumulated;
     })
-    .sort((a, b) => b.count - a.count)
-    .filter(f => f.count);
+    // .filter(f => f.count)
+    .sort((a, b) => b.count - a.count);
 
   total = this.countries.reduce((acc, curr) => acc + curr.count, 0);
 
   flatten = this.countries
+    .filter(f => f.count)
     .reduce((acc, curr) => {
       return [
         ...acc,
