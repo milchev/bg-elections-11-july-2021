@@ -13,7 +13,7 @@
     </mat-expansion-panel-header>
     <div *ngFor="let loc of country.data; let index = index; trackBy: trackByFn;">
       <div class="ps-3  py-2">
-        {{loc.location}}   <span class="ms-2">({{loc.count}} {{loc.countLabel}})</span>
+        {{loc.location}}   <span class="ms-2 {{loc.class}}">({{loc.count}} {{loc.countLabel}})</span>
       </div>
 
     

@@ -18,7 +18,8 @@ export class AppComponent {
           return {
             location: l.location,
             count: l.cnt,
-            countLabel: l.cnt !== 1 ? 'заявления' : 'заявление'
+            countLabel: l.cnt !== 1 ? 'заявления' : 'заявление',
+            class: l.cnt >= 40 ? 'text-success' : 'text-danger'
           };
         })
         .filter(l => +l.count > 0);
