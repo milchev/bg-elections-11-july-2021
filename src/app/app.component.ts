@@ -18,13 +18,13 @@ import {
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  constructor(public dialog: MatDialog, private route: ActivatedRoute) {}
+  constructor(private dialog: MatDialog, private route: ActivatedRoute) {}
 
   openDialog($event) {
     debugger;
     let conf = new MatDialogConfig();
     conf.data = { country: $event };
-    let ref =  this.dialog.open(CountryComponent, conf);
+    let ref = this.dialog.open(CountryComponent, conf);
   }
 
   locations = locations;
