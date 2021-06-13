@@ -24,7 +24,7 @@ export class AppComponent {
     debugger;
     let conf = new MatDialogConfig();
     conf.data = { country: $event };
-    this.dialog.open(CountryComponent, conf);
+    let ref =  this.dialog.open(CountryComponent, conf);
   }
 
   locations = locations;
