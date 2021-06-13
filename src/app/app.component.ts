@@ -1,9 +1,15 @@
 import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
-import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
+
 import { ActivatedRoute } from '@angular/router';
 import { locations } from './countries.data';
 import { CODES } from './country-codes.data';
 import { CountryComponent } from './country/country.component';
+
+import {
+  MatDialog,
+  MatDialogConfig,
+  MAT_DIALOG_DATA
+} from '@angular/material/dialog';
 
 @Component({
   selector: 'my-app',
@@ -16,11 +22,9 @@ export class AppComponent {
 
   openDialog($event) {
     debugger;
-    this.dialog.open(CountryComponent, {
-      data: {
-        country: $event
-      }
-    });
+    let conf = new MatDialogConfig();
+    conf.data = { country: $event };
+    this.dialog.open(CountryComponent, conf);
   }
 
   locations = locations;
