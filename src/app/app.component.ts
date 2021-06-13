@@ -15,6 +15,7 @@ export class AppComponent {
   constructor(public dialog: MatDialog, private route: ActivatedRoute) {}
 
   openDialog($event) {
+    debugger;
     this.dialog.open(CountryComponent, {
       data: {
         country: $event
