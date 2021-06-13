@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'table-view',
@@ -11,6 +11,8 @@ export class TableViewComponent implements OnInit {
     this.countries = _input;
     this.total = _input.reduce((acc, curr) => acc + curr.count, 0);
   }
+  @Output()
+  openCountry = new EventEmitter();
 
   total = 0;
   constructor() {}
@@ -20,5 +22,9 @@ export class TableViewComponent implements OnInit {
 
   trackByFn(index) {
     return index;
+  }
+
+  open(country) {
+    this.openCountry.emit(country);
   }
 }

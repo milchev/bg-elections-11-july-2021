@@ -1,3 +1,20 @@
+
+    <mat-list role="list">
+      <mat-list-item *ngFor="let country of countries; let index = index; trackBy: trackByFn" role="listitem" title="{{country.name}}"
+      (click)="open(country)">
+        <span class="country-position-idx text-center">{{index + 1}}</span>
+        <span
+          class="me-2 flag-icon flag-icon-{{country.flag}}"
+          style="font-size:1rem; width:3rem;"
+        >
+        </span>
+        <span
+          title="{{country.name}}  ({{country.count}} {{country.countLabel}})"
+          class="text-truncate country-label"
+          >{{country.name}}  ({{country.count}} {{country.countLabel}})</span>
+      </mat-list-item>
+    </mat-list>
+
 <mat-accordion>
 
 

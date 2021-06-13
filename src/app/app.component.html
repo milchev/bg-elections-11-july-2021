@@ -53,6 +53,8 @@
   </mat-expansion-panel>
 </mat-accordion>
 
+
+
 <h3 class="px-4 py-4">По държави</h3>
 
-<table-view [countries]="countries"></table-view>
+<table-view [countries]="countries" (openCountry)="openDialog(country)"></table-view>
