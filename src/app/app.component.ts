@@ -3,15 +3,13 @@ import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { locations } from './countries.data';
 import { CODES } from './country-codes.data';
-import { CountryComponent } from './country/country.component';
+import { CountryComponent, DialogData } from './country/country.component';
 
 import {
   MatDialog,
   MatDialogConfig,
   MAT_DIALOG_DATA
 } from '@angular/material/dialog';
-
-
 
 @Component({
   selector: 'my-app',
@@ -25,7 +23,7 @@ export class AppComponent {
   openDialog($event) {
     let conf = new MatDialogConfig();
     conf.data = { country: $event };
-    let ref = this.dialog.open(CountryComponent);
+    let ref = this.dialog.open(DialogDataExampleDialog);
   }
 
   locations = locations;
@@ -76,4 +74,12 @@ export class AppComponent {
   private locationReducer(acc, cur) {
     return acc + (cur.cnt || 0);
   }
+}
+
+@Component({
+  selector: 'dialog-data-example-dialog',
+  template: ''
+})
+export class DialogDataExampleDialog {
+  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
 }

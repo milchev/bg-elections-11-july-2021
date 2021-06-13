@@ -19,6 +19,7 @@ import { CountryComponent } from './country/country.component';
     AppRoutingModule
   ],
   declarations: [AppComponent, TableViewComponent, CountryComponent],
+  entryComponents: [AppComponent, CountryComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
