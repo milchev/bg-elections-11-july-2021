@@ -1,7 +1,9 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
 import { locations } from './countries.data';
 import { CODES } from './country-codes.data';
+import { CountryComponent } from './country/country.component';
 
 @Component({
   selector: 'my-app',
@@ -10,9 +12,17 @@ import { CODES } from './country-codes.data';
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  constructor(private route: ActivatedRoute){
+  constructor(public dialog: MatDialog, private route: ActivatedRoute) {}
 
+  openDialog(country) {
+    this.dialog.open(CountryComponent, {
+      data: {
+        country
+      }
+    });
   }
+
+  openD;
   locations = locations;
   countryKeys = Object.keys(this.locations);
   countries = this.countryKeys

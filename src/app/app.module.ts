@@ -8,6 +8,7 @@ import { TableViewComponent } from './table-view/table-view.component';
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
+import { CountryComponent } from './country/country.component';
 
 @NgModule({
   imports: [
@@ -17,7 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserAnimationsModule,
     AppRoutingModule
   ],
-  declarations: [AppComponent, TableViewComponent],
+  declarations: [AppComponent, TableViewComponent, CountryComponent],
   bootstrap: [AppComponent]
 })
 export class AppModule {}
