@@ -11,7 +11,7 @@ export interface DialogData {
   styleUrls: ['country.component.css']
 })
 export class CountryComponent implements OnInit {
-  constructor(@Inject(MAT_DIALOG_DATA) private data: DialogData) {}
+  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
 
   ngOnInit() {}
 }
