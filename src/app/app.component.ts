@@ -23,7 +23,7 @@ export class AppComponent {
   openDialog($event) {
     let conf = new MatDialogConfig();
     conf.data = { country: $event };
-    let ref = this.dialog.open(DialogDataExampleDialog);
+    let ref = this.dialog.open(DialogDataExampleDialog, conf);
   }
 
   locations = locations;
