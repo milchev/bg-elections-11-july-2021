@@ -3,7 +3,6 @@ import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { locations } from './countries.data';
 import { CODES } from './country-codes.data';
-import { CountryComponent, DialogData } from './country/country.component';
 
 import {
   MatDialog,
@@ -18,14 +17,6 @@ import {
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
-  constructor(public dialog: MatDialog, private route: ActivatedRoute) {}
-
-  openDialog($event) {
-    let conf = new MatDialogConfig();
-    conf.data = { country: $event };
-    let ref = this.dialog.open(DialogDataExampleDialog, conf);
-  }
-
   locations = locations;
   countryKeys = Object.keys(this.locations);
   countries = this.countryKeys

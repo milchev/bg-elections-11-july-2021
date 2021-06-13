@@ -15,7 +15,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MaterialModule,
     BrowserAnimationsModule
   ],
-  declarations: [AppComponent, TableViewComponent, CountryComponent],
+  declarations: [AppComponent, TableViewComponent],
 
   bootstrap: [AppComponent]
 })
