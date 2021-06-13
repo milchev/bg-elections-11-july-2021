@@ -1,9 +1,8 @@
-import { Component, ViewEncapsulation } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { Component, Inject, OnInit, ViewEncapsulation } from '@angular/core';
+import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
 import { locations } from './countries.data';
 import { CODES } from './country-codes.data';
-import { CountryComponent } from './country/country.component';
 
 @Component({
   selector: 'my-app',
@@ -14,10 +13,10 @@ import { CountryComponent } from './country/country.component';
 export class AppComponent {
   constructor(public dialog: MatDialog, private route: ActivatedRoute) {}
 
-  openDialog(country) {
+  openDialog($event) {
     this.dialog.open(CountryComponent, {
       data: {
-        country
+        country: $event
       }
     });
   }
@@ -71,4 +70,18 @@ export class AppComponent {
   private locationReducer(acc, cur) {
     return acc + (cur.cnt || 0);
   }
+}
+
+export interface DialogData {
+  country: any;
+}
+
+@Component({
+  selector: 'app-country',
+  template: '<div>workds</div>'
+})
+export class CountryComponent implements OnInit {
+  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+
+  ngOnInit() {}
 }
