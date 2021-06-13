@@ -6,7 +6,7 @@ export interface DialogData {
 }
 
 @Component({
-  selector: 'app-country',
+  selector: 'fuk-country',
   templateUrl: 'country.component.html',
   styleUrls: ['country.component.css']
 })
