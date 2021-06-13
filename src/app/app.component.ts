@@ -3,6 +3,7 @@ import { MatDialog, MAT_DIALOG_DATA } from '@angular/material/dialog';
 import { ActivatedRoute } from '@angular/router';
 import { locations } from './countries.data';
 import { CODES } from './country-codes.data';
+import { CountryComponent } from './country/country.component';
 
 @Component({
   selector: 'my-app',
@@ -21,7 +22,6 @@ export class AppComponent {
     });
   }
 
-  openD;
   locations = locations;
   countryKeys = Object.keys(this.locations);
   countries = this.countryKeys
@@ -70,18 +70,4 @@ export class AppComponent {
   private locationReducer(acc, cur) {
     return acc + (cur.cnt || 0);
   }
-}
-
-export interface DialogData {
-  country: any;
-}
-
-@Component({
-  selector: 'app-country',
-  template: '<div>workds</div>'
-})
-export class CountryComponent implements OnInit {
-  constructor(@Inject(MAT_DIALOG_DATA) public data: DialogData) {}
-
-  ngOnInit() {}
 }
