@@ -1,4 +1,5 @@
 import { Component, ViewEncapsulation } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { locations } from './countries.data';
 import { CODES } from './country-codes.data';
 
@@ -9,6 +10,9 @@ import { CODES } from './country-codes.data';
   encapsulation: ViewEncapsulation.None
 })
 export class AppComponent {
+  constructor(private route: ActivatedRoute){
+
+  }
   locations = locations;
   countryKeys = Object.keys(this.locations);
   countries = this.countryKeys

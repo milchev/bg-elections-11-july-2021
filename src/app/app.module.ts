@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { TableViewComponent } from './table-view/table-view.component';
 import { MaterialModule } from './material.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   imports: [
     BrowserModule,
     FormsModule,
     MaterialModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   declarations: [AppComponent, TableViewComponent],
   bootstrap: [AppComponent]
