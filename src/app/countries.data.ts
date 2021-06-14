@@ -35,7 +35,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 47
+      cnt: 49
     },
     {
       location: 'Велс',
@@ -65,7 +65,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 31
+      cnt: 32
     },
     {
       location: 'Виена - 13-ти Бецирк',
@@ -108,7 +108,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 59
+      cnt: 60
     },
     {
       location: 'Залцбург',
@@ -287,7 +287,7 @@ export const locations = {
       cnt: 21
     },
     { location: 'Гент, Neuseplein 1', note: '', cnt: 38 },
-    { location: 'Лиеж', note: '', cnt: 9 },
+    { location: 'Лиеж', note: '', cnt: 11 },
     {
       location: 'Льовен',
       note:
@@ -397,7 +397,7 @@ export const locations = {
     {
       location: 'Берлин 3 – Посолство / Mauerstr. 11, 10117 Berlin',
       note: '',
-      cnt: 58
+      cnt: 59
     },
     { location: 'Берлин 5, Grimm´s Hotel Potsdamer Platz', note: '', cnt: 76 },
     { location: "Берлин 6, Grimm's Hotel Potsdamer Platz", note: '', cnt: 73 },
@@ -406,7 +406,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 205
+      cnt: 206
     },
     {
       location:
@@ -457,7 +457,7 @@ export const locations = {
       index: '¹',
       cnt: 104
     },
-    { location: 'Висбаден (Wiesbaden)', note: '', cnt: 24 },
+    { location: 'Висбаден (Wiesbaden)', note: '', cnt: 25 },
     {
       location: 'Вормс',
       note:
@@ -493,7 +493,7 @@ export const locations = {
       index: '¹',
       cnt: 2
     },
-    { location: 'Дармщат (Darmstadt)', note: '', cnt: 75 },
+    { location: 'Дармщат (Darmstadt)', note: '', cnt: 76 },
     { location: 'Дахау', note: '', cnt: 14 },
     { location: 'Делменхорст', note: '', cnt: 187 },
     { location: 'Дитценбах', note: '', cnt: 117 },
@@ -516,7 +516,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 87
+      cnt: 89
     },
     {
       location: 'Дуисбург',
@@ -531,7 +531,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 159
+      cnt: 160
     },
     { location: 'Ердинг', note: '', cnt: 18 },
     { location: 'Ерланген', note: '', cnt: 7 },
@@ -626,7 +626,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 126
+      cnt: 128
     },
     { location: 'Леверкузен', note: '', cnt: 2 },
     { location: 'Лудвигсхафен', note: '', cnt: 58 },
@@ -725,7 +725,7 @@ export const locations = {
       index: '¹',
       cnt: 14
     },
-    { location: 'Нюрнберг', note: '', cnt: 213 },
+    { location: 'Нюрнберг', note: '', cnt: 214 },
     {
       location: 'Оберамергау',
       note:
@@ -757,7 +757,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 39
+      cnt: 40
     },
     {
       location: 'Равенсбург',
@@ -781,7 +781,7 @@ export const locations = {
     {
       location: 'Регенсбург 2 - Biopark сграда 3, Am Biopark 13',
       note: '',
-      cnt: 59
+      cnt: 60
     },
     { location: 'Розенхайм', note: '', cnt: 78 },
     {
@@ -805,7 +805,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 62
+      cnt: 63
     },
     { location: 'Тюбинген', note: '', cnt: 1 },
     {
@@ -842,12 +842,12 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 218
+      cnt: 219
     },
     {
       location: 'Франкфурт на Майн (Генерално консулство 2)',
       note: '',
-      cnt: 33
+      cnt: 34
     },
     {
       location: 'Франкфурт на Майн (Генерално консулство 3)',
@@ -883,7 +883,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 106
+      cnt: 107
     },
     {
       location: 'Хайлброн',
@@ -956,7 +956,7 @@ export const locations = {
     { location: 'Bernkastel-Kues, Trier', note: '', cnt: 1 },
     { location: 'Blaubeuren, Ulm', note: '', cnt: 5 },
     { location: 'Bremen, An der Weide 50A', note: '', cnt: 55 },
-    { location: 'Bremen, Morgenlandstr. 43, Bremen', note: '', cnt: 117 },
+    { location: 'Bremen, Morgenlandstr. 43, Bremen', note: '', cnt: 118 },
     {
       location:
         'Düsseldorf, Hotel NH Düsseldorf City, Kölner Str. 186-188, Düsseldorf-Oberbilk',
@@ -967,7 +967,7 @@ export const locations = {
       location:
         'Düsseldorf-Bilk, Amt für Statistik und Wahlen, Brinckmannstraße 5, Düsseldorf-Bilk',
       note: '',
-      cnt: 18
+      cnt: 19
     },
     {
       location:
@@ -1038,7 +1038,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 53
+      cnt: 55
     },
     {
       location: 'Каламата',
@@ -1050,7 +1050,7 @@ export const locations = {
     { location: 'Катерини', note: '', cnt: 15 },
     { location: 'Керамоти, Кавала', note: '', cnt: 3 },
     { location: 'Керамоти, Кавала, Гърция', note: '', cnt: 4 },
-    { location: 'Керкира, Корфу', note: '', cnt: 76 },
+    { location: 'Керкира, Корфу', note: '', cnt: 77 },
     {
       location: 'Комотини',
       note:
@@ -1078,9 +1078,9 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 100
+      cnt: 105
     },
-    { location: 'Оуранополи', note: '', cnt: 13 },
+    { location: 'Оуранополи', note: '', cnt: 14 },
     {
       location: 'Патра',
       note:
@@ -1104,7 +1104,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 50
+      cnt: 52
     },
     {
       location: 'Триполи',
@@ -1185,7 +1185,7 @@ export const locations = {
     { location: 'Armenistis Camping Sithonia, Sarti 63072', note: '', cnt: 2 },
     { location: 'Ioannina', note: '', cnt: 2 },
     { location: 'Limnos', note: '', cnt: 67 },
-    { location: 'Paralia Ofriniou', note: '', cnt: 7 },
+    { location: 'Paralia Ofriniou', note: '', cnt: 9 },
     { location: '*', note: '' }
   ],
   DK: [
@@ -1194,7 +1194,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 51
+      cnt: 52
     },
     {
       location: 'Норебро',
@@ -1222,7 +1222,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 32
+      cnt: 34
     },
     {
       location: 'Роскилде',
@@ -1251,7 +1251,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 25
+      cnt: 26
     },
     { location: 'Faroe Islands, Tórshavn', note: '', cnt: 1 },
     { location: 'Gamlehave Alle 7а, Charlottenlund', note: '', cnt: 3 },
@@ -1333,7 +1333,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 132
+      cnt: 133
     },
     { location: 'Дъблин-север', note: '', cnt: 28 },
     {
@@ -1441,7 +1441,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 36
+      cnt: 37
     },
     { location: 'Боадийа дел Монте, Boadilla del Monte', note: '', cnt: 3 },
     {
@@ -1620,7 +1620,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 39
+      cnt: 40
     },
     {
       location: 'Олерия',
@@ -1671,7 +1671,7 @@ export const locations = {
       index: '¹',
       cnt: 10
     },
-    { location: 'Сабадел', note: '', cnt: 4 },
+    { location: 'Сабадел', note: '', cnt: 6 },
     {
       location: 'Салоу',
       note:
@@ -1692,7 +1692,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 86
+      cnt: 87
     },
     {
       location: 'Сарон',
@@ -1766,7 +1766,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 117
+      cnt: 118
     },
     {
       location: 'Хуеркал - Овера',
@@ -1776,7 +1776,7 @@ export const locations = {
       cnt: 2
     },
     { location: 'Alfaz del Pi', note: '', cnt: 52 },
-    { location: 'Alzira', note: '', cnt: 21 },
+    { location: 'Alzira', note: '', cnt: 24 },
     { location: 'Asturias, Oviedo', note: '', cnt: 2 },
     { location: 'CUÉLLAR', note: '', cnt: 50 },
     { location: 'Can Picafort или Alcudia', note: '', cnt: 8 },
@@ -1953,7 +1953,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 55
+      cnt: 56
     },
     { location: 'Тури', note: '', cnt: 43 },
     {
@@ -1970,7 +1970,7 @@ export const locations = {
       index: '¹',
       cnt: 3
     },
-    { location: 'Фоджа (Foggia)', note: '', cnt: 42 },
+    { location: 'Фоджа (Foggia)', note: '', cnt: 43 },
     { location: 'Ancona, Ancona', note: '', cnt: 48 },
     { location: 'Bari', note: '', cnt: 2 },
     { location: 'Cagliari - Sardegna, Comune di Cagliari', note: '', cnt: 4 },
@@ -2032,7 +2032,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 96
+      cnt: 97
     },
     {
       location: 'Вон',
@@ -2177,7 +2177,7 @@ export const locations = {
       index: '¹',
       cnt: 14
     },
-    { location: 'Хонг Конг', note: '', cnt: 9 },
+    { location: 'Хонг Конг', note: '', cnt: 12 },
     {
       location: 'Шанхай (Генерално консулство)',
       note:
@@ -2252,7 +2252,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 82
+      cnt: 83
     },
     {
       location: 'Люксембург - Щрасен',
@@ -2389,7 +2389,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 38
+      cnt: 39
     },
     {
       location: 'Енсхеде',
@@ -2477,7 +2477,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 23
+      cnt: 24
     },
     { location: 'Бодо', note: '', cnt: 55 },
     {
@@ -2626,7 +2626,7 @@ export const locations = {
       index: '¹',
       cnt: 1
     },
-    { location: 'Глазгоу (Glasgow)', note: '', cnt: 94 },
+    { location: 'Глазгоу (Glasgow)', note: '', cnt: 95 },
     {
       location: 'Глостър',
       note:
@@ -2650,7 +2650,7 @@ export const locations = {
       index: '¹',
       cnt: 4
     },
-    { location: 'Единбург (Edinburgh)', note: '', cnt: 108 },
+    { location: 'Единбург (Edinburgh)', note: '', cnt: 109 },
     {
       location: 'Екзитър',
       note:
@@ -2780,14 +2780,14 @@ export const locations = {
     {
       location: 'Лондон - Палмърс Грийн (London - Palmers Green)',
       note: '',
-      cnt: 293
+      cnt: 297
     },
     {
       location: 'Лондон - Сатън',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 78
+      cnt: 79
     },
     {
       location: 'Лондон - Стратфорд',
@@ -2801,9 +2801,9 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 119
+      cnt: 121
     },
-    { location: 'Лондон - Сърбитън, Кингстън', note: '', cnt: 67 },
+    { location: 'Лондон - Сърбитън, Кингстън', note: '', cnt: 68 },
     { location: 'Лондон - Сърбитън, Толуърт', note: '', cnt: 64 },
     {
       location: 'Лондон - Тотнъм',
@@ -2818,7 +2818,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 174
+      cnt: 177
     },
     {
       location: 'Лондон - Уолтъмстоу',
@@ -2837,7 +2837,7 @@ export const locations = {
     {
       location: 'Лондон - Ууд Грийн (London - Wood Green)',
       note: '',
-      cnt: 119
+      cnt: 120
     },
     {
       location: 'Лондон - Хароу',
@@ -2855,7 +2855,7 @@ export const locations = {
     },
     { location: 'Лондон – Баркинг (London - Barking)', note: '', cnt: 209 },
     { location: 'Лондон – Гринуич (London – Greenwich)', note: '', cnt: 114 },
-    { location: 'Лондон – Ийлинг (London - Ealing)', note: '', cnt: 195 },
+    { location: 'Лондон – Ийлинг (London - Ealing)', note: '', cnt: 197 },
     { location: 'Лондон – Кройдън (London – Croydon)', note: '', cnt: 117 },
     { location: 'Лондон – Стратфорд (London-Stratford)', note: '', cnt: 183 },
     { location: 'Лондон – Сътън (London - Sutton)', note: '', cnt: 279 },
@@ -2976,7 +2976,7 @@ export const locations = {
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹'
     },
-    { location: 'Стафорд (Stafford)', note: '', cnt: 40 },
+    { location: 'Стафорд (Stafford)', note: '', cnt: 41 },
     { location: 'Суиндън', note: '', cnt: 81 },
     { location: 'Тетфорд', note: '', cnt: 1 },
     {
@@ -3026,7 +3026,7 @@ export const locations = {
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹'
     },
-    { location: 'Чатъм, Кент (Chatham, Kent)', note: '', cnt: 173 },
+    { location: 'Чатъм, Кент (Chatham, Kent)', note: '', cnt: 174 },
     {
       location: 'Честър',
       note:
@@ -3057,7 +3057,7 @@ export const locations = {
     { location: 'Burnley, Burnley', note: '', cnt: 17 },
     { location: 'Burton upon Trent', note: '', cnt: 6 },
     { location: 'Carlisle,Cumbria', note: '', cnt: 56 },
-    { location: 'Chelmsford', note: '', cnt: 38 },
+    { location: 'Chelmsford', note: '', cnt: 40 },
     { location: 'Cheshunt, London', note: '', cnt: 5 },
     { location: 'Corby', note: '', cnt: 4 },
     { location: 'Dartford', note: '', cnt: 30 },
@@ -3079,9 +3079,9 @@ export const locations = {
     { location: 'Kent, Canterbury', note: '', cnt: 38 },
     { location: 'Kilkeel', note: '', cnt: 66 },
     { location: 'LONDON - HARLOW', note: '', cnt: 2 },
-    { location: 'Lancaster, Lancaster', note: '', cnt: 21 },
+    { location: 'Lancaster, Lancaster', note: '', cnt: 22 },
     { location: 'Leicester', note: '', cnt: 88 },
-    { location: 'Leicester, LE13JR', note: '', cnt: 39 },
+    { location: 'Leicester, LE13JR', note: '', cnt: 40 },
     { location: 'Liverpool', note: '', cnt: 71 },
     { location: 'London - Bromley, BROMLEY', note: '', cnt: 82 },
     { location: 'London - Canning Town', note: '', cnt: 17 },
@@ -3132,7 +3132,7 @@ export const locations = {
     { location: 'Welling, Kent', note: '', cnt: 4 },
     { location: 'Wellingborough, Wellingborough', note: '', cnt: 2 },
     { location: 'Welwyn Garden City', note: '', cnt: 4 },
-    { location: 'Wesbech', note: '', cnt: 18 },
+    { location: 'Wesbech', note: '', cnt: 20 },
     { location: 'Weston-super-Mare', note: '', cnt: 113 },
     { location: 'Weybridge', note: '', cnt: 10 },
     { location: 'Widnes, Cheshire', note: '', cnt: 3 },
@@ -3650,7 +3650,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 51
+      cnt: 52
     },
     {
       location: 'магазин "Малинчо" -Egg Harbor Township , 2545 Fire Rd',
@@ -3800,18 +3800,18 @@ export const locations = {
       cnt: 90
     },
     { location: 'Бурса Караджабей', note: '', cnt: 65 },
-    { location: 'Бурса МустафаКемалпаша', note: '', cnt: 46 },
+    { location: 'Бурса МустафаКемалпаша', note: '', cnt: 48 },
     { location: 'Бурса инегьол йенидже', note: '', cnt: 83 },
     { location: 'Бурса йълдъръм деметевлер', note: '', cnt: 53 },
     { location: 'Бурса йълдъръм йешиляйла', note: '', cnt: 230 },
-    { location: 'Бурса йълдъръм миллет мах.', note: '', cnt: 243 },
+    { location: 'Бурса йълдъръм миллет мах.', note: '', cnt: 245 },
     { location: 'Бурса нилуфер 100йъл мах.', note: '', cnt: 52 },
-    { location: 'Бурса нилуфер минареличавуш', note: '', cnt: 81 },
+    { location: 'Бурса нилуфер минареличавуш', note: '', cnt: 82 },
     { location: 'Бурса нилуфер ючевлер', note: '', cnt: 107 },
-    { location: 'Бурса османгази алтънова', note: '', cnt: 172 },
+    { location: 'Бурса османгази алтънова', note: '', cnt: 176 },
     { location: 'Бурса османгази багралбашъ', note: '', cnt: 182 },
     { location: 'Бурса османгази истиклял', note: '', cnt: 42 },
-    { location: 'Бурса османгази оваакча', note: '', cnt: 754 },
+    { location: 'Бурса османгази оваакча', note: '', cnt: 755 },
     { location: 'Бурса османгази юнусели', note: '', cnt: 104 },
     {
       location: 'Бурса, Караджабей',
@@ -3838,7 +3838,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 170
+      cnt: 171
     },
     {
       location: 'Бурса, район Нилюфер (Гьорюкле)',
@@ -3852,28 +3852,28 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 103
+      cnt: 104
     },
     {
       location: 'Бурса, район Османгази (Демирташ)',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 439
+      cnt: 440
     },
     {
       location: 'Бурса, район Османгази (Йенибаглар)',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 220
+      cnt: 223
     },
     {
       location: 'Буюккаръщъран, обл. Къркларели',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 127
+      cnt: 133
     },
     {
       location: 'Гебзе',
@@ -3900,30 +3900,30 @@ export const locations = {
     },
     { location: 'ИЗМИР, КВ. ИЧМЕЛЕР', note: '', cnt: 48 },
     { location: 'ИСТАНБУЛ, Зехтинбурну', note: '', cnt: 86 },
-    { location: 'ИСТАНБУЛ, кв. ЕСЕНЮРТ, мах. КЪРАЧ', note: '', cnt: 307 },
-    { location: 'Измир кв.Борнова (Доганлар)', note: '', cnt: 399 },
+    { location: 'ИСТАНБУЛ, кв. ЕСЕНЮРТ, мах. КЪРАЧ', note: '', cnt: 311 },
+    { location: 'Измир кв.Борнова (Доганлар)', note: '', cnt: 403 },
     {
       location: 'Измир, Газиемир, кв. Сарнъч',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 667
+      cnt: 670
     },
     {
       location: 'Измир, кв. Борнова',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 351
+      cnt: 353
     },
     {
       location: 'Измир, община Буджа, кв. Чамлъкуле',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 852
+      cnt: 857
     },
-    { location: 'Измир, община Мендерес, кв. Газипаша', note: '', cnt: 137 },
+    { location: 'Измир, община Мендерес, кв. Газипаша', note: '', cnt: 141 },
     {
       location: 'Измир, община Мендерес, кв. Гьоредже',
       note:
@@ -3931,13 +3931,13 @@ export const locations = {
       index: '¹',
       cnt: 384
     },
-    { location: 'Измир, район Борнова, Пънарбашъ, Измир', note: '', cnt: 93 },
+    { location: 'Измир, район Борнова, Пънарбашъ, Измир', note: '', cnt: 100 },
     {
       location: 'Измит',
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 70
+      cnt: 71
     },
     {
       location: 'Истанбул (Генерално консулство)',
@@ -3983,7 +3983,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 550
+      cnt: 552
     },
     {
       location: 'Истанбул, кв. Бааджълар (Гюнешли)',
@@ -4135,7 +4135,7 @@ export const locations = {
     { location: 'гр.Кемер', note: '', cnt: 1 },
     { location: 'истанбул-силиври, истанбул-силиври', note: '', cnt: 54 },
     { location: 'обл.КЪРКЛАРЕЛИ гр.БАБАЕСКИ', note: '', cnt: 118 },
-    { location: 'обл.Текирдаг гр.Черкезкьой', note: '', cnt: 140 },
+    { location: 'обл.Текирдаг гр.Черкезкьой', note: '', cnt: 142 },
     {
       location: 'област Текирдаг, гр. Ергене',
       note:
@@ -4213,7 +4213,7 @@ export const locations = {
       index: '¹',
       cnt: 17
     },
-    { location: 'Тампере', note: '', cnt: 28 },
+    { location: 'Тампере', note: '', cnt: 31 },
     {
       location: 'Турку',
       note:
@@ -4226,7 +4226,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 58
+      cnt: 59
     },
     { location: 'Borgå, Östra Nyland', note: '', cnt: 1 },
     { location: '*', note: '' }
@@ -4261,7 +4261,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 63
+      cnt: 64
     },
     {
       location: 'Лотербург',
@@ -4280,7 +4280,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 40
+      cnt: 42
     },
     {
       location: 'Монпелие',
@@ -4398,7 +4398,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 189
+      cnt: 191
     },
     { location: 'Прелоуч', note: '', cnt: 6 },
     { location: 'Табор, Ceska budovice-Tabor', note: '', cnt: 1 },
@@ -4436,7 +4436,7 @@ export const locations = {
       note:
         'Място, в коeто се образува избирателна секция по реда на чл. 14 т. 3 от ИК',
       index: '¹',
-      cnt: 69
+      cnt: 70
     },
     {
       location: 'Кройцлинген',
@@ -4459,7 +4459,7 @@ export const locations = {
       cnt: 6
     },
     { location: 'Лугано', note: '', cnt: 2 },
-    { location: 'Люцерн', note: '', cnt: 42 },
+    { location: 'Люцерн', note: '', cnt: 43 },
     {
       location: 'Санкт Гален',
       note:
